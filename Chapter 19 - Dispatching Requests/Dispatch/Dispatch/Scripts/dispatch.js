@@ -43,7 +43,7 @@ var sendRequest = function (verb, id) {
             response(jqXHR.status + " (" + jqXHR.statusText + ")");
         }
     }
-
+    //changehere
     if (verb != "GET" && verb != "POST") {
         config.type = "POST";
         config.headers = {
