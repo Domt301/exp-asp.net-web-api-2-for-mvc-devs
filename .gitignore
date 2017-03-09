@@ -14,3 +14,11 @@
 /Chapter 13 - Using the Built-In Media Formatters/ExampleApp/ExampleApp/bin/
 
 /Chapter 19 - Dispatching Requests/Dispatch/packages/Microsoft.AspNet.WebPages.3.2.3/lib/net45
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/packages/repositories.config
