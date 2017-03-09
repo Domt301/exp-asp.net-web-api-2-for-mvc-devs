@@ -22,6 +22,11 @@ namespace ExampleApp {
             );
 
             config.Routes.MapHttpRoute(
+                name: "Binding Example Route",
+                routeTemplate: "api/{controller}/{action}/{first}/{second}"
+            );
+
+            config.Routes.MapHttpRoute(
                 name: "DefaultApi",
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
