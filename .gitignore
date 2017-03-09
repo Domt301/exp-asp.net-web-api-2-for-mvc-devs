@@ -6,3 +6,11 @@
 /Chapter 19 - Dispatching Requests/Dispatch/Dispatch/obj/Debug
 /Chapter 19 - Dispatching Requests/Dispatch/.vs/config/applicationhost.config
 /Chapter 19 - Dispatching Requests/Dispatch/.vs/Dispatch/v14/.suo
+/Chapter 13 - Using the Built-In Media Formatters/ExampleApp/.vs
+/Chapter 13 - Using the Built-In Media Formatters/ExampleApp/ExampleApp/bin/ExampleApp.dll
+*.config
+*.pdb
+/Chapter 13 - Using the Built-In Media Formatters/ExampleApp/ExampleApp/obj/Debug
+/Chapter 13 - Using the Built-In Media Formatters/ExampleApp/ExampleApp/bin/Microsoft.Web.Infrastructure.dll
+/Chapter 13 - Using the Built-In Media Formatters/ExampleApp/ExampleApp/bin/Ninject.dll
+/Chapter 19 - Dispatching Requests/Dispatch/packages/Microsoft.AspNet.WebPages.3.2.3/lib/net45
