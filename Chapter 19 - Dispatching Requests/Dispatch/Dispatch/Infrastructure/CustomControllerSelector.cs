@@ -9,11 +9,13 @@ using System.Web.Http.Dispatcher;
 
 namespace Dispatch.Infrastructure {
 
-    public class CustomControllerSelector : IHttpControllerSelector {
+    public class CustomControllerSelector : IHttpControllerSelector
+    {
         private IDictionary<string, HttpControllerDescriptor> dictionary;
         private ILookup<string, HttpControllerDescriptor> mappings;
 
-        public CustomControllerSelector(string suffix) {
+        public CustomControllerSelector(string suffix)
+        {
 
             Suffix = suffix;
             HttpConfiguration config = GlobalConfiguration.Configuration;
@@ -39,11 +41,13 @@ namespace Dispatch.Infrastructure {
 
         private string Suffix { get; set; }
 
-        public IDictionary<string, HttpControllerDescriptor> GetControllerMapping() {
+        public IDictionary<string, HttpControllerDescriptor> GetControllerMapping()
+        {
             return dictionary;
         }
 
-        public HttpControllerDescriptor SelectController(HttpRequestMessage request) {
+        public HttpControllerDescriptor SelectController(HttpRequestMessage request)
+        {
             string key
                 = request.GetRequestContext().RouteData.Values["controller"] as string;
             IEnumerable<HttpControllerDescriptor> matches = mappings[key];

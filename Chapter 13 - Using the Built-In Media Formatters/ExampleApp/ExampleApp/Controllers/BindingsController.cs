@@ -14,9 +14,10 @@ namespace ExampleApp.Controllers
 
         [HttpGet]
         [HttpPost]
-        public int SumNumbers(Numbers calc)
+        public int SumNumbers(Numbers calc, Operation op )
         {
-            return calc.First + calc.Second;
+            int result = op.Add ? calc.First + calc.Second : calc.First - calc.Second;
+            return op.Double ? result * 2 : result;
         }
     }
 }

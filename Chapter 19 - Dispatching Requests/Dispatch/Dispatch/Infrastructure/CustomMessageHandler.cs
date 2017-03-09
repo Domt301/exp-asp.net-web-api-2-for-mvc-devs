@@ -5,10 +5,12 @@ using System.Threading.Tasks;
 using System.Linq;
 
 namespace Dispatch.Infrastructure {
-    public class CustomMessageHandler : DelegatingHandler {
+    public class CustomMessageHandler : DelegatingHandler
+    {
 
         protected async override Task<HttpResponseMessage> SendAsync(HttpRequestMessage
-            request, CancellationToken cancellationToken) {
+            request, CancellationToken cancellationToken)
+        {
 
             if (request.Method == HttpMethod.Post) {
                 System.Diagnostics.Debugger.Break();

@@ -6,7 +6,7 @@ namespace Dispatch.Controllers {
     public class ProductsService : ApiController {
 
         public IHttpActionResult Get() {
-            return StatusCode(HttpStatusCode.ServiceUnavailable);
+            return StatusCode(HttpStatusCode.Created);
         }
 
         public IHttpActionResult Get(int id) {
