@@ -11,6 +11,6 @@
 *.config
 *.pdb
 /Chapter 13 - Using the Built-In Media Formatters/ExampleApp/ExampleApp/obj/Debug
-/Chapter 13 - Using the Built-In Media Formatters/ExampleApp/ExampleApp/bin/Microsoft.Web.Infrastructure.dll
-/Chapter 13 - Using the Built-In Media Formatters/ExampleApp/ExampleApp/bin/Ninject.dll
+/Chapter 13 - Using the Built-In Media Formatters/ExampleApp/ExampleApp/bin/
+
 /Chapter 19 - Dispatching Requests/Dispatch/packages/Microsoft.AspNet.WebPages.3.2.3/lib/net45
